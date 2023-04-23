@@ -24,7 +24,7 @@ const Dashboard = () => {
   ];
 
   useEffect(() => {
-    fetch('http://fparejam.pythonanywhere.com/api/policies')
+    fetch('https://fparejam.pythonanywhere.com/api/policies')
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => console.error(error));
