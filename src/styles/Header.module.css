@@ -1,18 +1,10 @@
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin: 1rem;
 }
 
-
-.icon {
-    font-size: 2rem;
-    margin: 0 1rem;
-    cursor: pointer;
-    color: gray;
-}
-
-.icon:hover {
-    color: black;
+.container h1{
+    margin-bottom: 10px;
 }
