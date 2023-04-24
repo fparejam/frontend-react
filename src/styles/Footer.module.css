@@ -1,0 +1,25 @@
+div.footer-container {
+    color: rgb(122, 122, 122);
+    font-size: 0.9rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+  
+@media (max-width: 40rem) {
+    div.footer-container {
+      font-size: 0.6rem;
+    }
+}
+
+.icon {
+    font-size: 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    color: gray;
+    margin-top: 1rem;
+}
+
+.icon:hover {
+    color: black;
+}
