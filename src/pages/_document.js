@@ -3,7 +3,10 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+          <title>Are you hiring me?</title>
+          <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <body>
         <Main />
         <NextScript />
