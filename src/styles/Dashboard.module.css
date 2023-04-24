@@ -1,8 +1,10 @@
 .dashboard-container {
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-gap: 10px;
-  }
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-gap: 10px;
+  padding-left: 20px;
+}
+
   
   .dashboard-container table {
     grid-column: 1 / 17;
