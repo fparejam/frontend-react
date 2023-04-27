@@ -1,6 +1,6 @@
 # Insurance Dashboard App
 
-This is an insurance dashboard application built with React that displays data from an API endpoint.
+This is an insurance dashboard application built with React that displays data from an API endpoint. Project coded as part of the interview process for a Fullstack SWE position on BCG X.
 
 ## Setup
 
